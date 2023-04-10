@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F5F5F5;
+}
+
+h1 {
+    color: #444;
+    text-align: center;
+    margin-top: 40px;
+}
+
+form {
+    margin: 40px auto;
+    width: 800px; /* Augmentez la largeur pour inclure les deux div */
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    display: flex; /* Ajoutez cette ligne pour utiliser Flexbox */
+    flex-wrap: wrap; /* Ajoutez cette ligne pour permettre le retour à la ligne */
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+select {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    display: block;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Ajoutez le code suivant pour aligner les deux div côte à côte */
+.Ctg {
+    flex-basis: 50%; /* Divisez l'espace en deux */
+}
+
+.Annee {
+    flex-basis: 50%; /* Divisez l'espace en deux */
+}
+
+.duree {
+    margin: 0 auto; /* Ajoutez cette ligne pour centrer la div horizontalement */
+    text-align: center; /* Ajoutez cette ligne pour centrer les éléments à l'intérieur de la div */
+    width: 100%; /* Ajoutez cette ligne pour que la div prenne toute la largeur disponible */
+  }
+  
